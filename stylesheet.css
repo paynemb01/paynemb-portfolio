@@ -1,0 +1,44 @@
+:root {
+    --white: #F5F3F5;
+    --black: #302B27;
+    --trueblue: #576CA8;
+    --blue: #274690;
+    --space: #1B264F;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#name {
+    font-size: 28px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background: var(--space);
+    color: var(--white);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    flex: 0;
+    display: flex;
+    margin: auto 0;
+}
+
+.link {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+#about {
+    margin: auto;
+}
