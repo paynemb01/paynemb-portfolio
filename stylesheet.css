@@ -9,16 +9,17 @@
 body {
     background-color: var(--black);
     color: var(--white);
+    margin: 0;
+    font-family: "Tenor Sans", sans-serif;
 }
 
 #name {
-    font-size: 28px;
+    font-size: 32px;
 }
 
 header {
     position: sticky;
     top: 0;
-    padding: 10px 16px;
     background: var(--space);
     color: var(--white);
 }
@@ -26,6 +27,8 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 nav {
@@ -39,6 +42,28 @@ nav {
     padding: 0 20px;
 }
 
-#about {
-    margin: auto;
+#about > p{
+    font-size: 18px;
+}
+
+.row {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.icon {
+    max-height: 55px;
+}
+
+.icon-display {
+    display: flex;
+    text-align: center;
+}
+
+.icon-display > p {
+    margin-right: auto;
 }
