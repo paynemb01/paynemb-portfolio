@@ -67,3 +67,30 @@ h2 {
 .icon-display > p {
     margin-right: auto;
 }
+
+.project-img {
+    max-width: 400px;
+    margin-right: 5%;
+}
+
+.project-container {
+    display: flex;
+}
+
+a:link, a:visited {
+    background-color: var(--trueblue);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: var(--blue);
+}
+
+footer {
+    background-color: var(--space);
+    padding-bottom: 10px;
+}
